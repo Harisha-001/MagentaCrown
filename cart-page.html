@@ -936,7 +936,11 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- MAin js link -->
     <script src="assets/js/main.js"></script>
-
+<script>
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+</script>
     <script>
         $(".marquee_text2").marquee({
             direction: "left",
